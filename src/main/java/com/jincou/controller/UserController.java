@@ -12,9 +12,10 @@ import javax.annotation.PostConstruct;
 import java.util.List;
 
 /**
- * @author xub
  * @Description: 接口测试
- * @date 2019/8/7 下午5:12
+ *
+ * @author xub
+ * @date 2019/8/24 下午6:31
  */
 @RestController
 public class UserController {
@@ -46,7 +47,6 @@ public class UserController {
     public Object save() {
         return userService.insertForeach(userVOList);
     }
-
 
     /**
      * @Description: 单个保存用户接口

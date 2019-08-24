@@ -24,7 +24,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public String insertForeach(List<UserVO> userVOList) {
-
         //实体转换
         List<TabUser> tabUserList = Lists.newArrayListWithCapacity(userVOList.size());
         for (UserVO userVO : userVOList) {
