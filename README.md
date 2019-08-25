@@ -1,4 +1,4 @@
-#<center> Mybatis自定义插件生成雪花ID做为主键项目</center>
+#Mybatis自定义插件生成雪花ID做为主键项目
 
 
 有关Mybatis雪花ID主键插件前面写了两篇博客作为该项目落地的铺垫。
