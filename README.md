@@ -56,7 +56,7 @@ public class TabUser {
 
 配置好数据库连接信息,直接启动Springboot启动类`Application.java`,访问`localhost:8080/save-foreach-user`就可以看到数据库数据已经有雪花ID了。
 
-如图(图片加载可能会比较慢）
+如图(图片加载可能会比较慢,如果未加载成功可以点击链接）[(图片)](https://img2018.cnblogs.com/blog/1090617/201908/1090617-20190825143949356-1399243971.png)
 
 ![](https://img2018.cnblogs.com/blog/1090617/201908/1090617-20190825143949356-1399243971.png)
 
