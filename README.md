@@ -137,6 +137,8 @@ public class AutoIdInterceptor implements Interceptor {
                 if (handlerList != null) {
                     break SYNC;
                 }
+            }
+        }
 ```
 
 这里虽然很细节，但也是有必要的，毕竟这里并发量很大,这样设计能一定程度提升性能。
