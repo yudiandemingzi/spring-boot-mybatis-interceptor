@@ -144,8 +144,8 @@ public class AutoIdInterceptor implements Interceptor {
           //此时handlerList确实为null,进入这里
             synchronized (this) {
                 handlerList = handlerMap.get(handlerKey);
-          //但到这里发现它已经不是为null了，因为可能被其它线程往map中插入数据,那说明其实不需要在执行下面的逻辑了，直接跳出if体的SYNC标签位置。
-          //那么也就不会执行 if (handlerList == null) {}里面的逻辑。
+          //但到这里发现它已经不是为null了，因为可能被其它线程往map中插入数据,那说明其实不需要在执行下面的逻辑了，
+          //直接跳出if体的SYNC标签位置。那么也就不会执行 if (handlerList == null) {}里面的逻辑。
                 if (handlerList != null) {
                     break SYNC;
                 }
