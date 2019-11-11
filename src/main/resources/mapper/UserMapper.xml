@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.jincou.mapper.UserMapper">
-  <resultMap id="BaseResultMap" type="com.jincou.entity.TabUser">
+<mapper namespace="com.oujiong.mapper.UserMapper">
+  <resultMap id="BaseResultMap" type="com.oujiong.entity.TabUser">
     <id column="id" jdbcType="BIGINT" property="id" />
     <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="sex" jdbcType="VARCHAR" property="sex" />
@@ -20,7 +20,7 @@
     where id = #{id,jdbcType=INTEGER}
   </select>
 
-  <insert id="insert" parameterType="com.jincou.entity.TabUser">
+  <insert id="insert" parameterType="com.oujiong.entity.TabUser">
     insert into user (id, name, sex,
       age, create_time, update_time,
       status)
@@ -42,7 +42,7 @@
     </foreach>
   </insert>
 
-  <insert id="insertSelective" parameterType="com.jincou.entity.TabUser">
+  <insert id="insertSelective" parameterType="com.oujiong.entity.TabUser">
     insert into user
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -92,7 +92,7 @@
     </trim>
   </insert>
 
-  <update id="updateByPrimaryKeySelective" parameterType="com.jincou.entity.TabUser">
+  <update id="updateByPrimaryKeySelective" parameterType="com.oujiong.entity.TabUser">
     update user
     <set>
       <if test="name != null">

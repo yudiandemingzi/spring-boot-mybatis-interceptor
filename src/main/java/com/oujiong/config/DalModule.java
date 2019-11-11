@@ -1,11 +1,11 @@
 /*
  * Copyright (c) 2018 Wantu, All rights reserved.
  */
-package com.jincou.config;
+package com.oujiong.config;
 
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.jincou.plugin.AutoIdInterceptor;
+import com.oujiong.plugin.AutoIdInterceptor;
 import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
@@ -28,7 +28,7 @@ import java.util.Collections;
  */
 @Configuration
 @ComponentScan(basePackageClasses = DalModule.class)
-@MapperScan(basePackages = "com.jincou.mapper")
+@MapperScan(basePackages = "com.oujiong.mapper")
 public class DalModule {
 
     /**

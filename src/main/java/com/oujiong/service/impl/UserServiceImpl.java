@@ -1,10 +1,10 @@
-package com.jincou.service.impl;
+package com.oujiong.service.impl;
 
 import com.google.common.collect.Lists;
-import com.jincou.entity.TabUser;
-import com.jincou.mapper.UserMapper;
-import com.jincou.service.UserService;
-import com.jincou.vo.UserVO;
+import com.oujiong.entity.TabUser;
+import com.oujiong.mapper.UserMapper;
+import com.oujiong.service.UserService;
+import com.oujiong.vo.UserVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

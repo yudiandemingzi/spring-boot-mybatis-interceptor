@@ -1,4 +1,4 @@
-package com.jincou.plugin;
+package com.oujiong.plugin;
 
 import java.lang.annotation.*;
 

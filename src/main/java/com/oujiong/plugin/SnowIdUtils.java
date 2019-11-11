@@ -1,4 +1,4 @@
-package com.jincou.plugin;
+package com.oujiong.plugin;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,4 +1,4 @@
-package com.jincou.plugin;
+package com.oujiong.plugin;
 
 import com.google.common.base.Predicate;
 import org.apache.ibatis.executor.Executor;

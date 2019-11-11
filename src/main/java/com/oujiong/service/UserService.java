@@ -1,6 +1,6 @@
-package com.jincou.service;
+package com.oujiong.service;
 
-import com.jincou.vo.UserVO;
+import com.oujiong.vo.UserVO;
 
 import java.util.List;
 

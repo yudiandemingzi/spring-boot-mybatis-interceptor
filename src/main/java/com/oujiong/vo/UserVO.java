@@ -1,4 +1,4 @@
-package com.jincou.vo;
+package com.oujiong.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

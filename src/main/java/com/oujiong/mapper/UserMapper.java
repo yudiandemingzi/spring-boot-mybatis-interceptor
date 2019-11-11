@@ -1,7 +1,7 @@
-package com.jincou.mapper;
+package com.oujiong.mapper;
 
 
-import com.jincou.entity.TabUser;
+import com.oujiong.entity.TabUser;
 
 import java.util.List;
 

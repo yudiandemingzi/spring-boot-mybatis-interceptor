@@ -1,6 +1,6 @@
-package com.jincou.entity;
+package com.oujiong.entity;
 
-import com.jincou.plugin.AutoId;
+import com.oujiong.plugin.AutoId;
 import lombok.Data;
 
 import java.util.Date;
