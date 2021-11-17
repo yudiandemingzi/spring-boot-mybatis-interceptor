@@ -155,3 +155,4 @@ public class AutoIdInterceptor implements Interceptor {
 
 这里虽然很细节，但也是有必要的，毕竟这里并发量很大,这样设计能一定程度提升性能。
 
+![acda64387e0896604b5932dc433c8b77](https://user-images.githubusercontent.com/37285812/142142124-5aa67609-59c7-4cde-b19d-0e9cb2218b33.gif)
